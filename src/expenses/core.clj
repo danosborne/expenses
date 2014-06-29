@@ -5,7 +5,7 @@
 ;; Krakow Euroclojure Expenses
 ;; ---------------------------
 
-(expenses
+#_(expenses
  "Accomodation" M -> GBP278 -> [M P D L G]
  "Taxi" L -> PLN100 -> [M D L G]
  "Beer & Pizza" M -> PLN150 -> [M G D L]
@@ -33,7 +33,7 @@
 ;; P: Paddy
 ;; ---------------------------
 
-(def payments
+#_(def payments
  [{:payer "M"
    :beneficiaries ["M" "D" "P"]
    :currency "GBP"
